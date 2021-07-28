@@ -15,7 +15,7 @@ function App() {
   ])
 
   useEffect(() => {
-    fetch('http://localhost:5000/products').then(res => {
+    fetch('/products').then(res => {
       if (res.ok) {
         return res.json()
       }

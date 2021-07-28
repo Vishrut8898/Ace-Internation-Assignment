@@ -48,7 +48,7 @@ const Pop = ({ products, setProducts }) => {
         //     url: filename
         // }
 
-        axios.post('http://localhost:5000/addProduct', formData)
+        axios.post('/addProduct', formData)
         alert('Product Added')
     }
 
